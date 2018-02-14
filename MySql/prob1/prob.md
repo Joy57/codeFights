@@ -7,7 +7,8 @@ You have stored the information about these projects in a simple database with a
 <li><strong>team_size<strong>: the number of employees working on the project;</li>
 <li><strong>team_lead<strong>: the name of the project manager;</li>
 <li><strong>income<strong>: the average monthly income of the project.</li>
-Your boss says that internal project ids are irrelevant to him and that he isn't interested in how big the teams are. Since that's the case, he wants you to create another table by removing the internal_id and team_size columns from the existing Projects table. Return it sorted by internal_id in ascending order.
+
+Your boss says that internal project ids are irrelevant to him and that he isn't interested in how big the teams are. Since that's the case,he wants you to create another table by removing the internal_id and team_size columns from the existing Projects table. Return it sorted by internal_id in ascending order.
 
 ## Example
 
