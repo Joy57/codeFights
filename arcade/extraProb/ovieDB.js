@@ -8,7 +8,7 @@ var movies = [
     rating: 3
     }
 ]
-movies.forEach(function(movie){
+function haveWatched(movie){
     var result = "You have ";
     if(movie.hasWatched){
         result += "watched ";
@@ -17,6 +17,10 @@ movies.forEach(function(movie){
         result += "not watched ";
     }
     result += "\"" +movie.title + "\" - ";
-    result += movie.rating + " Stars";
-    console.log(result);
+    result += movie.rating + " stars";
+    return result;
+}
+
+movies.forEach(function(movie){
+    console.log(haveWatched(movie));
 })
